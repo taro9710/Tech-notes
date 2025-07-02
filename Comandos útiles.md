@@ -78,10 +78,10 @@ Ester archivo se utilizará para ir agrupando listas de comandos para ir aprendi
         
         git log -- [file_name] 
     **Warning**, Hay un espacio entre `--` & `file_name`.
-- Para ver lo cambios que tienen los archivos:
+- Para ver lo cambios que tienen los archivos que no han sido agregado a un commit:
 
         git diff
-- Para ver las ramas locales (también te en cuál rema se está trabajando).
+- Para ver las ramas locales (también sirve para ver en cuál rema se está trabajando).
 
         git branch
 - Para crear una rama con un nombre específico
