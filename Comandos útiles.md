@@ -36,7 +36,16 @@ Ester archivo se utilizará para ir agrupando listas de comandos para ir aprendi
 - Para borrar archivos .deb antiguos del caché local que ya no se pueden volver a instalar o actualizar.
 
         sudo apt autoclean
+- Para ver si un proceso se está ejecutando
 
+        ps aux | grep [nombre del proceso]
+    El nombre del proceso puede ser el de `brave` para el Browser de Brave o `code` para VS CODE
+- Para concatenar archivos de texto en consola:
+
+        cat archivo.txt
+- Al igual que `cat` también tengo la siguiente opción que es igual pero tiene algunas funcionalidades gráficas que pueden llegar a ser útilies como por ej.  el resaltado de los archivos de md.
+
+        batcat archivo.md
 ## GIT
 - Para  inicializar GIT en nuestro proyecto.
 
