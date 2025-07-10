@@ -107,3 +107,12 @@ Ester archivo se utilizará para ir agrupando listas de comandos para ir aprendi
 - Si queremos cambiar la rama en la que estamos trabajando a otra.
         
         git checkout [branch_name]
+### ssh agent
+Para agregar mi `ssh-key` un a `ssh-agent` para que este recuerde tu `passphrase`, evitando que tenga que ingresarla cada vez que uses la clave. Esto es útil para simplificar la autenticación mientras mantienes la seguridad de tu clave (osea cada vez que haga un `git pull` o un `git push`).
+1. Primero inicializamos el `ssh-agent`en segundo plano:
+
+        eval "$(ssh-agent -s)"
+        >Agent pid [algún número]
+2. Agrega tu clave privada al ssh-agent (stiempre y cuando la clave privada este con el nombre por defaul)
+
+        ssh-add ~/.ssh/id_ed25519
