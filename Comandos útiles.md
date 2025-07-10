@@ -46,6 +46,13 @@ Ester archivo se utilizará para ir agrupando listas de comandos para ir aprendi
 - Al igual que `cat` también tengo la siguiente opción que es igual pero tiene algunas funcionalidades gráficas que pueden llegar a ser útilies como por ej.  el resaltado de los archivos de md.
 
         batcat archivo.md
+
+- Para saber cuánto tarda en arrancar la pc:
+        
+        systemd-analyze
+- Para ver qué es lo que tarda cada proceso: 
+
+        systemd-analyze blame
 ## GIT
 - Para  inicializar GIT en nuestro proyecto.
 
