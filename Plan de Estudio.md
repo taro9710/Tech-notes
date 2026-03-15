@@ -1,4 +1,4 @@
-# Gupia de aprendizaje de Linux (desde Mint hasta Arch)
+# Guía de aprendizaje de Linux (desde Mint hasta Arch)
 ## Introducción
 
 En este archivo voy a proponer una ruta progresiva dividida en niveles empenzando desde lo básico de Mint hasta llegar hasta Arch.
@@ -117,9 +117,9 @@ Aprender a montar particiones manualmente (`mount`, `umount`, `lsblk`, `fdisk`, 
 
 - Si algo te da curiosidad: **preguntá, rompé, aprendé**.
 
-- [Arch Wiki](https://wiki.archlinux.org/title/Main_page)bjetivo:** es tu biblia. Aunque estés en Mint, usá Arch Wiki para aprender conceptos.
+- [Arch Wiki](https://wiki.archlinux.org/title/Main_page) es tu biblia. Aunque estés en Mint, usá Arch Wiki para aprender conceptos.
 
-### Recursos útiles
+## Recursos útiles
 - [Arch Wiki](https://wiki.archlinux.org/title/Main_page)
 
 - Linux Handbook
