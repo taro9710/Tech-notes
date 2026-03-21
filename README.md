@@ -7,7 +7,6 @@ Este es un repositorio dedicado al aprendizaje de dirversas tecnologías. Desde 
 
 - [Plan de estudios](NeoVim/Plan%20de%20Estudios.md)
 - [ShortCuts](NeoVim/Shortcuts.md)
-- [Que es Vim y NeoVim](NeoVim/Que%20es%20Vim%20y%20NeoVim.md)
 
 #### Git
 
