@@ -1,5 +1,5 @@
 # Tech Notes
-Este es un repositorio dedicado al aprendizaje de dirversas tecnologías. Desde git, aprender a usar vim o sentirme cómodo 
+Este es un repositorio de hobby dedicado al aprendizaje de dirversas tecnologías. Desde git, cosas de programación, aprender a usar vim o sentirme cómodo en la terminal de Linux, etc.
 
 ## Indice
 
