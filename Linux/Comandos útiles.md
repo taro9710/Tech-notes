@@ -53,3 +53,22 @@ Ester archivo se utilizará para ir agrupando listas de comandos para ir aprendi
 - Para ver qué es lo que tarda cada proceso: 
 
         systemd-analyze blame
+- Para crear un directorio:
+
+        mkdir
+- Para crear archivos:
+
+        touch [archivo]
+        
+  Ejemplo: Para crear un archvio de texto de ejemplo utilizo: **touch ejemplo.txt**
+
+- Para eliminar archivos:
+
+        rm [archivo]
+
+  **Warning:** No va a ir a una papelera. Lo elimina
+
+- Para eliminar un directorio: 
+
+        rm -r [directorio]
+
