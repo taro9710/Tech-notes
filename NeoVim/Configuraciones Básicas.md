@@ -15,9 +15,23 @@ vim.opt.relativenumber = false
 ```
 Desactiva números relativos.
 
+- True Colours
+```lua
+vim.opt.termguicolors = true
+```
+Habilita colores de 24 bits.
+
 - Resaltar línea actual
 ```lua
 vim.opt.cursorline = true
+vim.api.nvim_set_hl(0, "CursorLine", {
+    bg = "#505050" (Este es el color de la línea) 
+})
+
+vim.api.nvim_set_hl(0, "CursorLineNr", {
+    fg = "#ffffff",
+    bold = true (Este creo que es para resaltar el número de la línea en la que estoy)
+})
 ```
 Resalta la línea donde está el cursor.
 
