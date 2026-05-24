@@ -20,6 +20,7 @@
     |   E   | Salta MáS  |
     |   x   | Borrar     |
     |   r   | Reemplazar |
+    |   A   | Append     |
     |   :   | Modo Comand|
     |  :w   | Guardar    | 
     |  :q   | Salir      |
@@ -37,6 +38,7 @@
 - `w`, `b`, `e` : Son para saltar de palabra en palabra, para adelante, atrás y adelante al final respectivamente. Sus versiones en mayúsculas saltan caracteres especiales incluidos.
 - `x` : Se elimina la letra sobre la que está el cursor.
 - `r` : Es para reemplazar un caracter.
+- `A` : Es para hacer append, cuando estoy al final de una línea, me situal luego del último caracter y se pone en modo insert.
 - `:` : Es para entrar en el modo comándos (como por ejemplo ":q" para salir del archivo o ":w" para guardar). 
 - `:w` : Viene de write, es para guardar archivos. 
 - `:q` : Es para salir de nvim. 
