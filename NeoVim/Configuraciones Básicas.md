@@ -35,11 +35,11 @@ vim.api.nvim_set_hl(0, "CursorLineNr", {
 ```
 Resalta la línea donde está el cursor.
 
-- Desactivar wrap
+- Wrap
 ```lua
-vim.opt.wrap = false
+vim.opt.wrap = true 
 ```
-Las líneas largas no se parten visualmente.
+Las líneas largas se parten visualmente.
 
 - Usar TABs reales
 ```lua
