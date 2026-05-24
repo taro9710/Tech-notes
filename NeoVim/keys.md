@@ -18,6 +18,8 @@
     |   B   | Más Atras  |
     |   e   | Salta Final|
     |   E   | Salta MáS  |
+    |   x   | Borrar     |
+    |   r   | Reemplazar |
     |   :   | Modo Comand|
     |  :w   | Guardar    | 
     |  :q   | Salir      |
@@ -33,6 +35,8 @@
 - `h`, `j`, `k`, `l` : Las teclas básicas de navegación para poder moverme a la izquierda, derecha, arriba y abajo; entre las líneas y las columnas del texto. 
 `o:` Nueva línea, cuando estoy en modo Normal y aprieto o este me hace una nueva línea y me pone en modo Insert ya listo para escribir.
 - `w`, `b`, `e` : Son para saltar de palabra en palabra, para adelante, atrás y adelante al final respectivamente. Sus versiones en mayúsculas saltan caracteres especiales incluidos.
+- `x` : Se elimina la letra sobre la que está el cursor.
+- `r` : Es para reemplazar un caracter.
 - `:` : Es para entrar en el modo comándos (como por ejemplo ":q" para salir del archivo o ":w" para guardar). 
 - `:w` : Viene de write, es para guardar archivos. 
 - `:q` : Es para salir de nvim. 
