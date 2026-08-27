@@ -1,7 +1,7 @@
 # NeoVim keys
 
 ## Modos Básicos y Navegación.
-
+# TODO.  Reestructurar el archivo. quizás modos, operadores y motions
 ### Mapa de Modos y Teclas de Navegación 
 
     |   i   | Modo Insert|
@@ -21,6 +21,10 @@
     |   x   | Borrar     |
     |   r   | Reemplazar |
     |   A   | Append     |
+    |  dw   | Delete Word|
+    |  dd   | Delete Line|
+    |  d$   | Delete End |
+    |   u   | Undo       |
     |   :   | Modo Comand|
     |  :w   | Guardar    | 
     |  :q   | Salir      |
@@ -39,7 +43,11 @@
 - `x` : Se elimina la letra sobre la que está el cursor.
 - `r` : Es para reemplazar un caracter.
 - `A` : Es para hacer append, cuando estoy al final de una línea, me situal luego del último caracter y se pone en modo insert.
-- `:` : Es para entrar en el modo comándos (como por ejemplo ":q" para salir del archivo o ":w" para guardar). 
+- `dw` : Me voy al inicio de la palabra que quiero borrar y utilizo el comando.
+- `dd` : Este es para eliminar toda una línea. 
+- `d$` : Me voy hasta el final de la última palabra que quiero conservar y ejecuto el comando para borrar todo lo que hay hasta el final de la línea.
+- `u` : Es para deshacer los cambios del últmo operador.
+- `:` : Es para entrar en el modo comándos (como por ejemplo ":q" rara salir del archivo o ":w" para guardar). 
 - `:w` : Viene de write, es para guardar archivos. 
 - `:q` : Es para salir de nvim. 
 - `:q!` : Es para cuando quiero salir pero tengo cambios en el archivo que no quiero guardar.
